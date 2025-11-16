@@ -12,7 +12,7 @@ namespace osu.Eclipse.Game.Auth
     {
         // You NEED to fill these from your osu! OAuth registration
         private readonly string clientId = "45808";
-        private readonly string clientSecret = "YOUR_CLIENT_SECRET";
+        private readonly string clientSecret = "CDAE5WTopCftCi5MOZOkfXOKW3d6CLOMJJjOK9K7";
         // Suggest using http://localhost:3500/callback for desktop, or a custom scheme for mobile
         private readonly string redirectUri = "http://localhost:3500/callback";
         private readonly string scopes = "identify public";
