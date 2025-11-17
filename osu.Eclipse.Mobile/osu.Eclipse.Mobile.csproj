@@ -5,27 +5,20 @@
     <OutputType>Exe</OutputType>
     <UseMaui>true</UseMaui>
     <SingleProject>true</SingleProject>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
 
     <RootNamespace>osu.Eclipse.Mobile</RootNamespace>
     <AssemblyName>osu.Eclipse.Mobile</AssemblyName>
 
-    <!-- Optional settings -->
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Add Eclipse project references here -->
-    <!-- Example:
-    <ProjectReference Include="..\osu.Eclipse.Game\osu.Eclipse.Game.csproj" />
-    -->
-  </ItemGroup>
-
-  <ItemGroup>
-    <!-- Add mobile-specific NuGet packages here -->
-    <!-- Example:
-    <PackageReference Include="CommunityToolkit.Maui" Version="8.0.0" /> -->
+    <!-- Required for WebAssembly toolchain -->
+    <PackageReference Include="Microsoft.NET.Runtime.WebAssembly.Sdk" Version="8.0.0" />
   </ItemGroup>
 
 </Project>
+
 
