@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>osu.Eclipse.Game</RootNamespace>
+    <AssemblyName>osu.Eclipse.Game</AssemblyName>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Add references to other Eclipse projects here -->
+    <!-- Example:
+    <ProjectReference Include="..\osu.Eclipse.Core\osu.Eclipse.Core.csproj" />
+    -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Add NuGet packages here -->
+    <!-- Example:
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    -->
+  </ItemGroup>
+
+</Project>
