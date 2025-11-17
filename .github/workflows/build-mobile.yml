@@ -19,8 +19,7 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Install .NET workloads (Android + MAUI + WASM)
-      run: |
-        dotnet workload install maui
+      run:  |
         dotnet workload install android
         dotnet workload install wasm-tools
 
