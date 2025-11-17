@@ -1,1 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0-android;net8.0-ios</TargetFrameworks>
+    <OutputType>Exe</OutputType>
+    <UseMaui>true</UseMaui>
+    <SingleProject>true</SingleProject>
+
+    <RootNamespace>osu.Eclipse.Mobile</RootNamespace>
+    <AssemblyName>osu.Eclipse.Mobile</AssemblyName>
+
+    <!-- Optional settings -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Add Eclipse project references here -->
+    <!-- Example:
+    <ProjectReference Include="..\osu.Eclipse.Game\osu.Eclipse.Game.csproj" />
+    -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Add mobile-specific NuGet packages here -->
+    <!-- Example:
+    <PackageReference Include="CommunityToolkit.Maui" Version="8.0.0" /> -->
+  </ItemGroup>
+
+</Project>
 
