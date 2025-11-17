@@ -20,7 +20,6 @@ jobs:
 
     - name: Install .NET workloads (Android + MAUI + WASM)
       run: |
-        dotnet workload install maui
         dotnet workload install android
         dotnet workload install wasm-tools
 
