@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>osu.Eclipse.Desktop</RootNamespace>
+    <AssemblyName>osu.Eclipse.Desktop</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Add project dependencies here -->
+    <!-- Example:
+    <ProjectReference Include="..\osu.Eclipse.Core\osu.Eclipse.Core.csproj" />
+    -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Add NuGet packages here -->
+    <!-- Example:
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    -->
+  </ItemGroup>
+
+</Project>
