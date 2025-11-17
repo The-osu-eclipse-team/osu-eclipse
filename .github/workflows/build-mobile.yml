@@ -1,0 +1,31 @@
+name: Build Mobile
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Install .NET 8
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Install .NET workloads (Android + MAUI + WASM)
+      run: |
+        dotnet workload install maui
+        dotnet workload install android
+        dotnet workload install wasm-tools
+
+    - name: Restore
+      run: dotnet restore
+
+    - name: Build (Android)
+      run: dotnet build osu.Eclipse.Mobile.csproj -c Release -f net8.0-android
