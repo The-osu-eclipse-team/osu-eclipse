@@ -4,22 +4,24 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
+
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+
     <RootNamespace>osu.Eclipse.Desktop</RootNamespace>
     <AssemblyName>osu.Eclipse.Desktop</AssemblyName>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Add project dependencies here -->
+    <!-- Project references go here -->
     <!-- Example:
-    <ProjectReference Include="..\osu.Eclipse.Core\osu.Eclipse.Core.csproj" />
+    <ProjectReference Include="..\osu.Eclipse.Game\osu.Eclipse.Game.csproj" />
     -->
   </ItemGroup>
 
   <ItemGroup>
-    <!-- Add NuGet packages here -->
-    <!-- Example:
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    -->
+    <!-- NuGet packages go here -->
   </ItemGroup>
 
 </Project>
+
